@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int arr[5]={3,5,7,8,6};
     int getLength=sizeof(arr)/sizeof(arr[0]);
-    int pos=2;
+    int pos=4;
     int elem=9;
     if (pos<0||pos>getLength){
         cout<<"Invalid";
@@ -64,18 +64,18 @@ int main(){
     // }                                               //deleting first element of an array.
 
 
-    for (int i=0;i<getLength;i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
+    // for (int i=0;i<getLength;i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // cout<<endl;
     
-    for (int i=getLength;i>=pos;i--){
-        int temp=arr[i-2];
-        arr[i-2]=arr[i-1];
-        arr[i-1]=temp;
+    // for (int i=getLength;i>=pos;i--){
+    //     int temp=arr[i-2];
+    //     arr[i-2]=arr[i-1];
+    //     arr[i-1]=temp;
 
-    }
-    for (int i=1;i<getLength;i++){
-        cout<<arr[i-1]<<" ";
-    }    
+    // }
+    // for (int i=1;i<getLength;i++){
+    //     cout<<arr[i-1]<<" ";
+    // }                                                 //deleting specific element of an array.
 }
