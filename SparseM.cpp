@@ -49,7 +49,7 @@ int main(){
             }
         }
     }
-    cout<<"new Array of non zero values"<<endl;
+    cout<<"new Array of non zero values:"<<endl;
     for (int i=0;i<row;i++){
         for (int j=0;j<col;j++){
            if (Narr[i][j]!=0){
